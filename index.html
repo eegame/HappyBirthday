@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+        <title>Happy Birthday!</title>
+    </head>
+    <body id="body">
+        <canvas id="view"></canvas>
+        <canvas id="meteors"></canvas>
+        <aside style="display:none">
+            <img id="stars" src="image/stars.png">
+        </aside>
+        <div id="base"></div>
+        <div id="note"></div>
+        <div id="bundle"></div>
+        <div id="button">
+            <img id="bubble" src="image/bubble.png" width="100" height="100">
+        </div>
+        <div id="audio">
+            <audio id="pop">
+                <source src="audio/pop.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <audio id="birthday">
+                <source src="audio/birthday.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <script src="script/jquery.min.js"></script>
+        <script src="script/jquery.imgexplode.js"></script>
+        <script src="script/index.js"></script>
+    </body>
+</html>
